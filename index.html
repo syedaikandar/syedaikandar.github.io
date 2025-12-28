@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SyKanEX Solutions | Smart Business Solutions</title>
+    <title>SyKanEX Integrated Solutions | Driving Success Through Smart Solutions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* Reset & Base */
+        /* Reset & Base Styles */
         * {
             margin: 0;
             padding: 0;
@@ -31,7 +31,7 @@
         
         body {
             font-family: 'Roboto', sans-serif;
-            line-height: 1.5;
+            line-height: 1.6;
             color: var(--dark);
             background-color: #fff;
             overflow-x: hidden;
@@ -48,10 +48,10 @@
             width: 100%;
             max-width: 100%;
             margin: 0 auto;
-            padding: 0 15px;
+            padding: 0 20px;
         }
         
-        /* Mobile-First Header */
+        /* Header - Mobile First */
         header {
             background-color: rgba(255, 255, 255, 0.98);
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -70,32 +70,32 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            padding: 0 15px;
+            padding: 0 20px;
         }
         
         .logo {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             text-decoration: none;
             flex-shrink: 0;
         }
         
         .logo-icon {
-            width: 45px;
-            height: 45px;
+            width: 50px;
+            height: 50px;
             background: var(--gradient);
-            border-radius: 8px;
+            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 20px;
         }
         
         .logo-text {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 700;
             color: var(--primary);
             line-height: 1.2;
@@ -104,21 +104,22 @@
         .logo-text span {
             color: var(--secondary);
             display: block;
-            font-size: 11px;
+            font-size: 12px;
             font-weight: 500;
             margin-top: 2px;
         }
         
+        /* Mobile Menu Button */
         .mobile-menu-btn {
-            width: 45px;
-            height: 45px;
+            width: 48px;
+            height: 48px;
             display: flex;
             align-items: center;
             justify-content: center;
             background: none;
             border: none;
             color: var(--primary);
-            font-size: 22px;
+            font-size: 24px;
             cursor: pointer;
             border-radius: 8px;
             transition: all 0.3s;
@@ -148,7 +149,6 @@
         
         .mobile-nav ul {
             list-style: none;
-            padding: 0;
         }
         
         .mobile-nav ul li {
@@ -157,18 +157,18 @@
         
         .mobile-nav ul li a {
             display: block;
-            padding: 18px 20px;
+            padding: 18px 25px;
             text-decoration: none;
             color: var(--dark);
             font-weight: 500;
-            font-size: 16px;
+            font-size: 17px;
             transition: all 0.3s;
         }
         
         .mobile-nav ul li a:hover {
             background: var(--light-gray);
             color: var(--primary);
-            padding-left: 25px;
+            padding-left: 30px;
         }
         
         /* Hero Section */
@@ -178,7 +178,7 @@
             background-size: cover;
             background-position: center;
             color: white;
-            padding: 100px 0 60px;
+            padding: 120px 0 80px;
             text-align: center;
             min-height: 100vh;
             display: flex;
@@ -191,7 +191,7 @@
         }
         
         .hero h1 {
-            font-size: 28px;
+            font-size: 32px;
             margin-bottom: 15px;
             background: linear-gradient(to right, #fff, var(--secondary));
             -webkit-background-clip: text;
@@ -201,53 +201,53 @@
         }
         
         .hero .tagline {
-            font-size: 18px;
+            font-size: 20px;
             margin-bottom: 20px;
             color: var(--secondary);
             font-weight: 500;
         }
         
         .hero p {
-            font-size: 16px;
-            margin: 0 auto 30px;
+            font-size: 17px;
+            margin: 0 auto 35px;
             opacity: 0.9;
-            line-height: 1.6;
-            padding: 0 10px;
+            line-height: 1.7;
+            padding: 0 15px;
         }
         
         .cta-button {
             display: inline-block;
             background: var(--gradient-accent);
             color: white;
-            padding: 16px 35px;
+            padding: 18px 40px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: 600;
-            font-size: 16px;
+            font-size: 17px;
             transition: all 0.3s;
             border: none;
-            box-shadow: 0 8px 25px rgba(255, 64, 129, 0.3);
-            min-width: 200px;
+            box-shadow: 0 10px 25px rgba(255, 64, 129, 0.3);
+            min-width: 220px;
         }
         
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 12px 30px rgba(255, 64, 129, 0.4);
+            box-shadow: 0 15px 30px rgba(255, 64, 129, 0.4);
         }
         
         /* About Section */
         .about {
-            padding: 60px 0;
+            padding: 80px 0;
             background: #ffffff;
         }
         
         .section-title {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
         
         .section-title h2 {
-            font-size: 28px;
+            font-size: 32px;
             color: var(--primary);
             margin-bottom: 15px;
             position: relative;
@@ -257,10 +257,10 @@
         .section-title h2::after {
             content: '';
             position: absolute;
-            width: 60px;
+            width: 70px;
             height: 4px;
             background: var(--gradient);
-            bottom: -10px;
+            bottom: -12px;
             left: 50%;
             transform: translateX(-50%);
             border-radius: 2px;
@@ -268,10 +268,16 @@
         
         .section-title p {
             color: var(--gray);
-            margin-top: 25px;
-            font-size: 16px;
-            line-height: 1.6;
-            padding: 0 10px;
+            margin-top: 30px;
+            font-size: 17px;
+            line-height: 1.7;
+            padding: 0 15px;
+        }
+        
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
         }
         
         .about-content {
@@ -279,7 +285,7 @@
         }
         
         .about-content h2 {
-            font-size: 24px;
+            font-size: 28px;
             color: var(--primary);
             margin-bottom: 20px;
             text-align: center;
@@ -288,8 +294,8 @@
         .about-content p {
             color: var(--gray);
             margin-bottom: 20px;
-            font-size: 16px;
-            line-height: 1.6;
+            font-size: 17px;
+            line-height: 1.7;
             text-align: center;
         }
         
@@ -297,15 +303,15 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 15px;
-            margin-top: 30px;
+            margin-top: 35px;
         }
         
         .stat-item {
             text-align: center;
             background: white;
-            padding: 20px 10px;
-            border-radius: 12px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            padding: 25px 15px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s;
         }
         
@@ -314,22 +320,22 @@
         }
         
         .stat-number {
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 700;
             color: var(--primary);
-            margin-bottom: 5px;
+            margin-bottom: 8px;
         }
         
         .stat-label {
             color: var(--gray);
-            font-size: 14px;
+            font-size: 15px;
         }
         
         .about-image {
             width: 100%;
-            border-radius: 15px;
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
             margin-top: 30px;
         }
         
@@ -339,23 +345,23 @@
             display: block;
         }
         
-        /* CEO Message */
+        /* CEO Message Section */
         .ceo-message {
-            padding: 60px 0;
+            padding: 80px 0;
             background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
         }
         
         .ceo-container {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 40px;
         }
         
         .ceo-content {
-            padding: 25px;
+            padding: 30px;
             background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
             position: relative;
         }
         
@@ -364,69 +370,76 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 5px;
+            width: 6px;
             height: 100%;
             background: var(--gradient);
         }
         
         .ceo-content h2 {
-            font-size: 22px;
+            font-size: 28px;
             color: var(--primary);
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
         
         .ceo-quote {
-            font-size: 16px;
-            line-height: 1.6;
+            font-size: 17px;
+            line-height: 1.7;
             color: var(--dark);
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             position: relative;
-            padding-left: 20px;
-            border-left: 3px solid var(--secondary);
+            padding-left: 25px;
+            border-left: 4px solid var(--secondary);
         }
         
         .ceo-quote::before {
             content: '"';
             position: absolute;
-            font-size: 40px;
+            font-size: 60px;
             color: var(--secondary);
             opacity: 0.2;
-            top: -10px;
+            top: -15px;
             left: 10px;
             font-family: Georgia, serif;
         }
         
+        .ceo-quote strong {
+            display: block;
+            margin-bottom: 15px;
+            color: var(--primary);
+            font-size: 18px;
+        }
+        
         .ceo-signature {
-            margin-top: 25px;
+            margin-top: 30px;
             text-align: center;
-            padding-top: 20px;
+            padding-top: 25px;
             border-top: 1px solid rgba(0, 0, 0, 0.1);
         }
         
         .ceo-name {
-            font-size: 18px;
+            font-size: 22px;
             font-weight: 700;
             color: var(--primary);
-            margin-bottom: 5px;
+            margin-bottom: 8px;
         }
         
         .ceo-title {
             color: var(--secondary);
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 500;
         }
         
         .ceo-images {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 15px;
+            gap: 20px;
         }
         
         .ceo-image-item {
-            border-radius: 12px;
+            border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-            height: 180px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+            height: 200px;
         }
         
         .ceo-image-item img {
@@ -435,34 +448,34 @@
             object-fit: cover;
         }
         
-        /* Services */
+        /* Services Section */
         .services {
-            padding: 60px 0;
+            padding: 80px 0;
             background: #ffffff;
         }
         
         .services-grid {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 20px;
+            gap: 25px;
         }
         
         .service-card {
             background-color: white;
-            border-radius: 15px;
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
             transition: all 0.3s;
         }
         
         .service-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
         }
         
         .service-image-container {
             position: relative;
-            height: 160px;
+            height: 180px;
             overflow: hidden;
         }
         
@@ -478,16 +491,16 @@
             left: 0;
             right: 0;
             background: linear-gradient(to top, rgba(26, 35, 126, 0.9), rgba(26, 35, 126, 0.7));
-            padding: 15px;
+            padding: 20px;
         }
         
         .service-icon {
-            font-size: 20px;
+            font-size: 22px;
             color: white;
-            margin-right: 10px;
+            margin-right: 12px;
             background: rgba(255, 255, 255, 0.2);
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -496,36 +509,37 @@
         }
         
         .service-title {
-            font-size: 18px;
+            font-size: 20px;
             color: white;
             font-weight: 700;
             line-height: 1.3;
+            overflow: hidden;
         }
         
         .service-content {
-            padding: 20px;
+            padding: 25px;
         }
         
         .service-card p {
             color: var(--gray);
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             line-height: 1.6;
-            font-size: 15px;
+            font-size: 16px;
         }
         
         .service-features {
             list-style: none;
-            margin-top: 15px;
-            padding-top: 15px;
+            margin-top: 20px;
+            padding-top: 20px;
             border-top: 1px solid var(--light-gray);
         }
         
         .service-features li {
-            padding: 8px 0;
+            padding: 10px 0;
             color: var(--dark);
             position: relative;
-            padding-left: 25px;
-            font-size: 14px;
+            padding-left: 30px;
+            font-size: 15px;
         }
         
         .service-features li:before {
@@ -534,12 +548,12 @@
             left: 0;
             color: var(--secondary);
             font-weight: bold;
-            font-size: 16px;
+            font-size: 18px;
         }
         
         /* Why Choose Us */
         .why-choose {
-            padding: 60px 0;
+            padding: 80px 0;
             background: #ffffff;
         }
         
@@ -551,97 +565,105 @@
         
         .feature-card {
             text-align: center;
-            padding: 25px 15px;
-            border-radius: 15px;
+            padding: 30px 20px;
+            border-radius: 20px;
             background: white;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: all 0.3s;
         }
         
         .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
         
         .feature-icon {
-            width: 60px;
-            height: 60px;
+            width: 70px;
+            height: 70px;
             background: var(--gradient);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 15px;
+            margin: 0 auto 20px;
             color: white;
-            font-size: 24px;
+            font-size: 28px;
         }
         
         .feature-card h3 {
-            font-size: 16px;
-            margin-bottom: 10px;
+            font-size: 18px;
+            margin-bottom: 12px;
             color: var(--primary);
             font-weight: 700;
         }
         
         .feature-card p {
             color: var(--gray);
-            line-height: 1.5;
-            font-size: 14px;
+            line-height: 1.6;
+            font-size: 15px;
         }
         
-        /* Contact */
+        /* Contact Section */
         .contact-section {
-            padding: 60px 0;
+            padding: 80px 0;
             background: #ffffff;
         }
         
         .contact-container {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 40px;
         }
         
         .contact-info h2 {
-            font-size: 24px;
+            font-size: 32px;
             color: var(--primary);
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
         
         .contact-info p {
             color: var(--gray);
-            margin-bottom: 20px;
-            font-size: 16px;
-            line-height: 1.6;
+            margin-bottom: 25px;
+            font-size: 17px;
+            line-height: 1.7;
         }
         
         .contact-details {
             list-style: none;
-            margin-top: 20px;
+            margin-top: 25px;
         }
         
         .contact-details li {
             display: flex;
             align-items: flex-start;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             color: var(--dark);
-            padding: 15px;
-            border-radius: 10px;
+            padding: 20px;
+            border-radius: 15px;
             background: rgba(255, 255, 255, 0.8);
             border: 1px solid #f0f0f0;
+            transition: all 0.3s;
+        }
+        
+        .contact-details li:hover {
+            background: white;
+            transform: translateX(5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
         }
         
         .contact-details i {
             color: var(--secondary);
-            margin-right: 12px;
+            margin-right: 15px;
             margin-top: 3px;
-            font-size: 20px;
-            min-width: 25px;
+            font-size: 24px;
+            min-width: 30px;
         }
         
         .contact-details a {
             color: var(--primary);
             text-decoration: none;
             transition: color 0.3s;
+            font-size: 17px;
         }
         
         .contact-details a:hover {
@@ -652,37 +674,37 @@
         .contact-form {
             width: 100%;
             background: white;
-            border-radius: 15px;
-            padding: 25px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
             border: 1px solid rgba(0, 0, 0, 0.05);
         }
         
         .contact-form h3 {
-            font-size: 20px;
+            font-size: 24px;
             color: var(--primary);
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
         
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
         
         .form-group label {
             display: block;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
             color: var(--dark);
             font-weight: 500;
-            font-size: 15px;
+            font-size: 16px;
         }
         
         .form-group input,
         .form-group textarea,
         .form-group select {
             width: 100%;
-            padding: 14px;
+            padding: 16px;
             border: 1px solid #e1e6f0;
-            border-radius: 8px;
+            border-radius: 10px;
             font-family: 'Roboto', sans-serif;
             font-size: 16px;
             background: #f9fbff;
@@ -692,9 +714,9 @@
             background: var(--gradient);
             color: white;
             border: none;
-            padding: 16px 30px;
-            border-radius: 8px;
-            font-size: 16px;
+            padding: 18px 35px;
+            border-radius: 10px;
+            font-size: 17px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
@@ -704,22 +726,22 @@
         
         .submit-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(26, 35, 126, 0.2);
+            box-shadow: 0 15px 30px rgba(26, 35, 126, 0.2);
         }
         
-        /* WhatsApp Button */
+        /* WhatsApp Float Button */
         .whatsapp-float {
             position: fixed;
-            width: 55px;
-            height: 55px;
-            bottom: 20px;
-            right: 20px;
+            width: 60px;
+            height: 60px;
+            bottom: 25px;
+            right: 25px;
             background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
             color: #FFF;
             border-radius: 50%;
             text-align: center;
-            font-size: 24px;
-            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+            font-size: 28px;
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
             z-index: 1000;
             display: flex;
             align-items: center;
@@ -730,35 +752,35 @@
         
         .whatsapp-float:hover {
             transform: scale(1.1);
-            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+            box-shadow: 0 12px 30px rgba(37, 211, 102, 0.4);
         }
         
         /* Footer */
         footer {
             background: var(--footer-bg);
             color: white;
-            padding: 50px 0 25px;
+            padding: 60px 0 30px;
         }
         
         .footer-content {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 30px;
-            margin-bottom: 30px;
+            gap: 40px;
+            margin-bottom: 40px;
         }
         
         .footer-column h3 {
-            font-size: 18px;
-            margin-bottom: 20px;
+            font-size: 22px;
+            margin-bottom: 25px;
             color: white;
             position: relative;
-            padding-bottom: 10px;
+            padding-bottom: 15px;
         }
         
         .footer-column h3::after {
             content: '';
             position: absolute;
-            width: 40px;
+            width: 50px;
             height: 3px;
             background: var(--secondary);
             bottom: 0;
@@ -767,9 +789,9 @@
         
         .footer-column p {
             color: rgba(255, 255, 255, 0.8);
-            line-height: 1.6;
-            margin-bottom: 15px;
-            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-size: 16px;
         }
         
         .footer-links {
@@ -777,14 +799,14 @@
         }
         
         .footer-links li {
-            margin-bottom: 12px;
+            margin-bottom: 15px;
         }
         
         .footer-links a {
             color: rgba(255, 255, 255, 0.8);
             text-decoration: none;
             transition: all 0.3s;
-            font-size: 15px;
+            font-size: 16px;
         }
         
         .footer-links a:hover {
@@ -798,35 +820,35 @@
         .contact-info-footer li {
             display: flex;
             align-items: flex-start;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             color: rgba(255, 255, 255, 0.8);
-            font-size: 15px;
+            font-size: 16px;
         }
         
         .contact-info-footer i {
             color: var(--secondary);
-            margin-right: 12px;
+            margin-right: 15px;
             margin-top: 3px;
-            font-size: 16px;
+            font-size: 18px;
         }
         
         .social-links {
             display: flex;
-            gap: 12px;
-            margin-top: 20px;
+            gap: 15px;
+            margin-top: 25px;
         }
         
         .social-links a {
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 50%;
             color: white;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 20px;
             transition: all 0.3s;
         }
         
@@ -837,24 +859,24 @@
         
         .copyright {
             text-align: center;
-            padding-top: 25px;
+            padding-top: 30px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             color: rgba(255, 255, 255, 0.7);
-            font-size: 14px;
+            font-size: 15px;
         }
         
         /* Responsive Breakpoints */
         @media (min-width: 576px) {
             .container {
-                padding: 0 20px;
+                padding: 0 25px;
             }
             
             .hero h1 {
-                font-size: 32px;
+                font-size: 36px;
             }
             
             .section-title h2 {
-                font-size: 32px;
+                font-size: 36px;
             }
             
             .features-grid {
@@ -866,26 +888,26 @@
             .container {
                 max-width: 720px;
                 margin: 0 auto;
+                padding: 0 30px;
             }
             
             .hero {
-                padding: 120px 0 80px;
+                padding: 140px 0 100px;
             }
             
             .hero h1 {
-                font-size: 36px;
+                font-size: 42px;
             }
             
             .hero p {
                 font-size: 18px;
-                max-width: 600px;
+                max-width: 700px;
             }
             
             .about-container {
-                display: flex;
                 flex-direction: row;
                 align-items: center;
-                gap: 40px;
+                gap: 50px;
             }
             
             .about-content {
@@ -923,27 +945,42 @@
             .footer-content {
                 grid-template-columns: repeat(2, 1fr);
             }
-        }
-        
-        @media (min-width: 992px) {
-            .container {
-                max-width: 960px;
+            
+            /* Desktop Navigation */
+            .desktop-nav {
+                display: block;
             }
             
-            .hero {
-                padding: 140px 0 100px;
+            .desktop-nav ul {
+                display: flex;
+                list-style: none;
+                gap: 30px;
             }
             
-            .hero h1 {
-                font-size: 42px;
+            .desktop-nav ul li a {
+                text-decoration: none;
+                color: var(--dark);
+                font-weight: 500;
+                font-size: 16px;
+                transition: color 0.3s;
+                padding: 5px 0;
+                position: relative;
             }
             
-            .services-grid {
-                grid-template-columns: repeat(3, 1fr);
+            .desktop-nav ul li a::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 3px;
+                background: var(--gradient);
+                left: 0;
+                bottom: 0;
+                transition: width 0.3s;
+                border-radius: 3px;
             }
             
-            .footer-content {
-                grid-template-columns: repeat(4, 1fr);
+            .desktop-nav ul li a:hover::after {
+                width: 100%;
             }
             
             .mobile-menu-btn {
@@ -953,27 +990,27 @@
             .mobile-nav {
                 display: none;
             }
-            
-            .desktop-nav {
-                display: block;
+        }
+        
+        @media (min-width: 992px) {
+            .container {
+                max-width: 960px;
             }
             
-            .desktop-nav ul {
-                display: flex;
-                list-style: none;
-                gap: 25px;
+            .hero {
+                padding: 160px 0 120px;
             }
             
-            .desktop-nav ul li a {
-                text-decoration: none;
-                color: var(--dark);
-                font-weight: 500;
-                font-size: 16px;
-                transition: color 0.3s;
+            .hero h1 {
+                font-size: 48px;
             }
             
-            .desktop-nav ul li a:hover {
-                color: var(--primary);
+            .services-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .footer-content {
+                grid-template-columns: repeat(4, 1fr);
             }
         }
         
@@ -983,7 +1020,7 @@
             }
             
             .hero h1 {
-                font-size: 48px;
+                font-size: 54px;
             }
         }
         
@@ -1006,7 +1043,7 @@
 </head>
 <body>
     <!-- WhatsApp Float -->
-    <a href="https://wa.me/92472740080" target="_blank" class="whatsapp-float">
+    <a href="https://wa.me/923472740080" target="_blank" class="whatsapp-float">
         <i class="fab fa-whatsapp"></i>
     </a>
     
@@ -1018,8 +1055,8 @@
                     SIS
                 </div>
                 <div class="logo-text">
-                    SyKanEX Solutions
-                    <span>Smart Business Solutions</span>
+                    SyKanEX Integrated Solutions
+                    <span>Driving Success Through Smart Solutions</span>
                 </div>
             </a>
             
@@ -1032,7 +1069,7 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#ceo">CEO</a></li>
+                    <li><a href="#ceo">CEO Message</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -1058,7 +1095,7 @@
             <div class="hero-content fade-in">
                 <h1>SyKanEX Integrated Solutions</h1>
                 <div class="tagline">Driving Success Through Smart Solutions</div>
-                <p>Providing comprehensive IT, development, and business support services to help your organization thrive in the digital age.</p>
+                <p>Providing comprehensive IT, development, and business support services to help your organization thrive in the digital age. From web development to data analytics, we offer end-to-end solutions tailored to your needs.</p>
                 <a href="#contact" class="cta-button">Get Started Today</a>
             </div>
         </div>
@@ -1075,25 +1112,25 @@
             <div class="about-container">
                 <div class="about-content">
                     <h2>Our Expertise</h2>
-                    <p>With years of industry experience and a team of dedicated professionals, we help businesses navigate the complexities of the digital landscape and achieve their strategic objectives through smart, customized solutions.</p>
+                    <p>SyKanEX Integrated Solutions is a premier provider of comprehensive technology and business support services. With years of industry experience and a team of dedicated professionals, we help businesses navigate the complexities of the digital landscape and achieve their strategic objectives through smart, customized solutions.</p>
                     
                     <div class="about-stats">
                         <div class="stat-item">
                             <div class="stat-number">250+</div>
-                            <div class="stat-label">Projects</div>
+                            <div class="stat-label">Projects Completed</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-number">50+</div>
-                            <div class="stat-label">Clients</div>
+                            <div class="stat-label">Happy Clients</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-number">5+</div>
-                            <div class="stat-label">Years</div>
+                            <div class="stat-label">Years Experience</div>
                         </div>
                     </div>
                 </div>
                 <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="About SyKanEX">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="About SyKanEX">
                 </div>
             </div>
         </div>
@@ -1103,7 +1140,7 @@
     <section class="ceo-message" id="ceo">
         <div class="container">
             <div class="section-title">
-                <h2>CEO Message</h2>
+                <h2>Message from Our CEO</h2>
                 <p>Leadership, Vision, and Commitment to Excellence</p>
             </div>
             
@@ -1111,23 +1148,26 @@
                 <div class="ceo-content">
                     <h2>A Vision for Digital Excellence</h2>
                     <div class="ceo-quote">
+                        <strong>Our CEO, Syed Sikandar Shah, shares his vision:</strong>
                         At SyKanEX, we believe that technology should empower businesses, not complicate them. Our mission is to bridge the gap between innovative technology and practical business needs. Every day, I'm inspired by our team's dedication to creating solutions that drive real value for our clients.
                         <br><br>
                         Success in the digital age requires more than just technical expertise—it demands a deep understanding of business challenges and a commitment to building partnerships that last. We don't just deliver projects; we cultivate relationships and grow with our clients.
+                        <br><br>
+                        The future belongs to those who innovate, adapt, and embrace change. At SyKanEX, we're not just keeping up with technological advancements—we're helping shape them. Join us on this journey toward digital transformation and business excellence.
                     </div>
                     
                     <div class="ceo-signature">
                         <div class="ceo-name">Syed Sikandar Shah</div>
-                        <div class="ceo-title">Founder & CEO</div>
+                        <div class="ceo-title">Founder & CEO, SyKanEX Integrated Solutions</div>
                     </div>
                 </div>
                 
                 <div class="ceo-images">
                     <div class="ceo-image-item">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Digital Innovation">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Digital Innovation">
                     </div>
                     <div class="ceo-image-item">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w-600&q=80" alt="Team Collaboration">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team Collaboration">
                     </div>
                 </div>
             </div>
@@ -1138,19 +1178,19 @@
     <section class="services" id="services">
         <div class="container">
             <div class="section-title">
-                <h2>Our Services</h2>
-                <p>Comprehensive solutions designed to meet modern business needs</p>
+                <h2>Our Professional Services</h2>
+                <p>We offer a comprehensive range of services designed to meet the diverse needs of modern businesses.</p>
             </div>
             
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-image-container">
-                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Software Development" class="service-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Software Development" class="service-image">
                         <div class="service-title-container">
                             <div class="service-icon">
                                 <i class="fas fa-laptop-code"></i>
                             </div>
-                            <div class="service-title">Software Solutions</div>
+                            <div class="service-title">Software & IT Solutions</div>
                         </div>
                     </div>
                     <div class="service-content">
@@ -1160,13 +1200,14 @@
                             <li>IT Infrastructure Setup</li>
                             <li>System Integration</li>
                             <li>Cloud Solutions</li>
+                            <li>API Development</li>
                         </ul>
                     </div>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-image-container">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Web Development" class="service-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Web Development" class="service-image">
                         <div class="service-title-container">
                             <div class="service-icon">
                                 <i class="fas fa-code"></i>
@@ -1181,13 +1222,14 @@
                             <li>E-commerce Solutions</li>
                             <li>Web Applications</li>
                             <li>CMS Development</li>
+                            <li>Website Maintenance</li>
                         </ul>
                     </div>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-image-container">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Digital Marketing" class="service-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Digital Marketing" class="service-image">
                         <div class="service-title-container">
                             <div class="service-icon">
                                 <i class="fas fa-bullhorn"></i>
@@ -1202,6 +1244,7 @@
                             <li>SEO Optimization</li>
                             <li>Content Marketing</li>
                             <li>Email Campaigns</li>
+                            <li>Analytics & Reporting</li>
                         </ul>
                     </div>
                 </div>
@@ -1214,7 +1257,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Why Choose SyKanEX?</h2>
-                <p>We stand out from the competition with our commitment to excellence</p>
+                <p>We stand out from the competition with our commitment to excellence, innovation, and client satisfaction.</p>
             </div>
             
             <div class="features-grid">
@@ -1223,7 +1266,7 @@
                         <i class="fas fa-users"></i>
                     </div>
                     <h3>Expert Team</h3>
-                    <p>Industry experts with years of experience</p>
+                    <p>Industry experts with years of experience in their respective fields.</p>
                 </div>
                 
                 <div class="feature-card">
@@ -1231,7 +1274,7 @@
                         <i class="fas fa-lightbulb"></i>
                     </div>
                     <h3>Innovative Solutions</h3>
-                    <p>Cutting-edge technologies driving results</p>
+                    <p>We leverage cutting-edge technologies to deliver innovative solutions.</p>
                 </div>
                 
                 <div class="feature-card">
@@ -1239,7 +1282,7 @@
                         <i class="fas fa-headset"></i>
                     </div>
                     <h3>24/7 Support</h3>
-                    <p>Round-the-clock business support</p>
+                    <p>Round-the-clock support ensures your business runs smoothly.</p>
                 </div>
                 
                 <div class="feature-card">
@@ -1247,7 +1290,7 @@
                         <i class="fas fa-clock"></i>
                     </div>
                     <h3>Timely Delivery</h3>
-                    <p>Projects delivered on time, every time</p>
+                    <p>We respect deadlines and deliver projects on time, every time.</p>
                 </div>
                 
                 <div class="feature-card">
@@ -1255,7 +1298,7 @@
                         <i class="fas fa-handshake"></i>
                     </div>
                     <h3>Client-Centric</h3>
-                    <p>Solutions tailored to your specific needs</p>
+                    <p>Your success is our priority. We tailor solutions to meet your needs.</p>
                 </div>
                 
                 <div class="feature-card">
@@ -1263,7 +1306,7 @@
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3>Quality Assurance</h3>
-                    <p>Rigorous testing for flawless delivery</p>
+                    <p>Rigorous testing and quality checks ensure flawless delivery.</p>
                 </div>
             </div>
         </div>
@@ -1274,13 +1317,13 @@
         <div class="container">
             <div class="section-title">
                 <h2>Get In Touch</h2>
-                <p>Ready to transform your business? Contact us today</p>
+                <p>Ready to transform your business with our integrated solutions? Contact us today.</p>
             </div>
             
             <div class="contact-container">
                 <div class="contact-info">
                     <h2>Contact Information</h2>
-                    <p>We're here to help you achieve your business goals with our comprehensive services.</p>
+                    <p>We're here to help you achieve your business goals with our comprehensive range of services.</p>
                     
                     <ul class="contact-details">
                         <li>
@@ -1294,22 +1337,29 @@
                             <i class="fab fa-whatsapp"></i>
                             <div>
                                 <strong>WhatsApp</strong><br>
-                                <a href="https://wa.me/92472740080" target="_blank">+92 472 740080</a>
+                                <a href="https://wa.me/923472740080" target="_blank">+92 347 2740080</a>
                             </div>
                         </li>
                         <li>
                             <i class="fas fa-clock"></i>
                             <div>
                                 <strong>Business Hours</strong><br>
-                                Mon-Fri: 9:00 AM - 6:00 PM
+                                Monday - Friday: 9:00 AM - 6:00 PM
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Service Areas</strong><br>
+                                Global Services • Remote Support Available
                             </div>
                         </li>
                     </ul>
                 </div>
                 
                 <div class="contact-form">
-                    <h3>Send Message</h3>
-                    <p style="color: var(--gray); margin-bottom: 20px;">We'll get back to you as soon as possible.</p>
+                    <h3>Send us a message</h3>
+                    <p style="color: var(--gray); margin-bottom: 25px;">Fill out the form below and we'll get back to you as soon as possible.</p>
                     
                     <form id="contactForm">
                         <div class="form-group">
@@ -1317,22 +1367,26 @@
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email *</label>
+                            <label for="email">Email Address *</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="service">Service Needed</label>
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
                             <select id="service" name="service">
-                                <option value="">Select Service</option>
-                                <option value="Software Solutions">Software Solutions</option>
+                                <option value="">Select a service</option>
+                                <option value="Software & IT Solutions">Software & IT Solutions</option>
                                 <option value="Web Development">Web Development</option>
                                 <option value="Digital Marketing">Digital Marketing</option>
-                                <option value="Consultation">Consultation</option>
+                                <option value="Business Consultation">Business Consultation</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="message">Message *</label>
-                            <textarea id="message" name="message" rows="4" required placeholder="Tell us about your project..."></textarea>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project or requirements..."></textarea>
                         </div>
                         <button type="submit" class="submit-btn">Send Message</button>
                     </form>
@@ -1346,10 +1400,10 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>SyKanEX Solutions</h3>
-                    <p>Driving Success Through Smart Solutions. We provide comprehensive IT and business support services.</p>
+                    <h3>SyKanEX Integrated Solutions</h3>
+                    <p>Driving Success Through Smart Solutions. We provide comprehensive IT, development, and business support services to help organizations thrive.</p>
                     <div class="social-links">
-                        <a href="https://wa.me/92472740080" target="_blank">
+                        <a href="https://wa.me/923472740080" target="_blank">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                         <a href="mailto:syedsikandarshah963@gmail.com">
@@ -1373,24 +1427,28 @@
                 </div>
                 
                 <div class="footer-column">
-                    <h3>Contact Info</h3>
+                    <h3>Contact Information</h3>
                     <ul class="contact-info-footer">
                         <li>
                             <i class="fas fa-envelope"></i>
-                            <span><a href="mailto:syedsikandarshah963@gmail.com">syedsikandarshah963@gmail.com</a></span>
+                            <span>Email: <a href="mailto:syedsikandarshah963@gmail.com">syedsikandarshah963@gmail.com</a></span>
                         </li>
                         <li>
                             <i class="fab fa-whatsapp"></i>
-                            <span><a href="https://wa.me/92472740080" target="_blank">+92 472 740080</a></span>
+                            <span>WhatsApp: <a href="https://wa.me/923472740080" target="_blank">+92 347 2740080</a></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <span>Service: Global Remote Support</span>
                         </li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
-                    <h3>Services</h3>
+                    <h3>Core Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#services">Software Solutions</a></li>
                         <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Software Solutions</a></li>
                         <li><a href="#services">Digital Marketing</a></li>
                         <li><a href="#services">Business Support</a></li>
                     </ul>
@@ -1398,7 +1456,7 @@
             </div>
             
             <div class="copyright">
-                <p>&copy; <span id="currentYear"></span> SyKanEX Integrated Solutions. All rights reserved.</p>
+                <p>&copy; <span id="currentYear"></span> SyKanEX Integrated Solutions. All rights reserved. | Driving Success Through Smart Solutions</p>
             </div>
         </div>
     </footer>
@@ -1423,7 +1481,7 @@
             });
         });
         
-        // Smooth scrolling
+        // Smooth scrolling for all anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -1457,7 +1515,7 @@
             }
         });
         
-        // Set current year
+        // Set current year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
         
         // Contact form submission
@@ -1467,12 +1525,13 @@
             const submitBtn = this.querySelector('.submit-btn');
             const originalText = submitBtn.textContent;
             
-            // Simulate form submission
+            // Show loading state
             submitBtn.textContent = 'Sending...';
             submitBtn.disabled = true;
             
+            // Simulate form submission (in real implementation, you would send to a server)
             setTimeout(() => {
-                alert('Thank you! Your message has been sent. We will contact you soon.');
+                alert('Thank you! Your message has been sent. Our CEO, Syed Sikandar Shah, will contact you soon.');
                 this.reset();
                 submitBtn.textContent = originalText;
                 submitBtn.disabled = false;
@@ -1514,17 +1573,22 @@
             });
         }, { threshold: 0.1 });
         
-        // Observe elements
-        document.querySelectorAll('.about-stats, .service-card, .feature-card').forEach(el => {
+        // Observe elements for animation
+        document.querySelectorAll('.about-stats, .service-card, .feature-card, .ceo-content').forEach(el => {
             observer.observe(el);
         });
         
-        // Load animations
+        // Initialize animations
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('.fade-in').forEach(el => {
                 el.style.opacity = '0';
             });
         });
+        
+        console.log("SyKanEX Integrated Solutions Website Loaded Successfully!");
+        console.log("CEO: Syed Sikandar Shah");
+        console.log("WhatsApp: +92 347 2740080");
+        console.log("Email: syedsikandarshah963@gmail.com");
     </script>
 </body>
 </html>
